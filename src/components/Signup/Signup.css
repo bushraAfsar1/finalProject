@@ -1,0 +1,80 @@
+*{
+    color: #002f34;
+}
+.main-container{
+    background-color: #EBEEEF;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    height: 450px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #bdc8c9 1px 2px 7px 5px;
+    background-color:#aeafaf28;
+}
+.formSection{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.formSection input{
+    width: 80%;
+    height: 35px;
+    margin-top: 10px;
+    padding-left: 8px;
+    border-radius: 5px;
+    border: transparent;
+}
+input:focus{
+    outline: #b3f4fc 1px solid;
+    box-shadow:#b3f4fc 0px 1px 1px 0px;
+}
+.button:hover{
+    border: #002f34 2px solid;
+    color: #002f34;
+    background-color: white;
+}
+.button:active{
+    border: #002f34 4px solid;
+    color: #002f34;
+    background-color: white;
+}
+
+.button{
+    border: transparent;
+    background-color: #002f34;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+    height: 35px;
+}
+.form-footer{
+    text-align: center;
+    font-size: 16px;
+}
+.link{
+    cursor: pointer;
+    font-weight: bold;
+}
+.errorMsg{
+    margin-bottom: 20px;
+    color: red;
+    font-size: 14px;
+}
+.imgDiv{
+    width: 50px;
+    background-image: url(../../../public/olx.svg);
+}
